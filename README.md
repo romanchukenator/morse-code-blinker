@@ -26,4 +26,4 @@ If anyone's willing to make some comments or PRs on how to improve this lacklust
 
 Yeah, go for it. Play around and do what you want.
 
-I'd suggest running the basic tests I've included. Just change `testMode` to `true` and so long as all the tests pass i'd say you're good to go.
+I'd suggest running the basic tests I've included. Just change `testMode` to `true` and so long as all the tests pass I'd say you're good to go.
