@@ -8,6 +8,8 @@ Original project was built on an Arduino Uno.
 
 ## How do I start morse'ing?
 
+https://github.com/romanchukenator/morse-code-blinker/assets/6802842/6b9921d8-0e8c-4cfa-836e-6037b98d67da
+
 Short answer is via the serial monitor.
 
 Once you've uploaded the code to your board you'll need to set up the serial monitor's port and baud. So, for example I'd set my port to be `/dev/tty.usbserial-130 - `. The baud rate is `115200`. After see the serial monitor print out a friendly `Hi! What're we blinking?` you can type a message and send it as text and, so long as your circuit is setup correctly, you should be enjoying the teeny tiny flashes of communication.
