@@ -4,11 +4,11 @@ An Arduino project for a simple morse code blinker.
 
 Original project was built on an Arduino Uno.
 
-Since I'm clueless about the world of morse code I went and found some other source that looked and felt fairly authorative: [MorseCode.World](https://morsecode.world)
+Since I'm clueless about the world of morse code I went and found some other source that looked and felt fairly authoritative: [MorseCode.World](https://morsecode.world)
 
-They have a bunch of [information](https://morsecode.world/international/timing.html) about timings and how you break down dits and dahs and and intra- and inter- word spacing. It's more complicated than I'd've thought. The original idea was to bang out this super simple project in a couple hours but then it all spiraled into something much more complicated.
+They have a bunch of [information](https://morsecode.world/international/timing.html) about timings and how you break down dits and dahs and and intra- and inter- word spacing. It's more complicated than I'd've thought. The original idea was to bang out this super simple project in a couple hours but then it all spiralled into something much more complicated.
 
-So while the circuit is as basic as you cna get the code is a little more involved. I'm not super familiar with C++ and as such my code kinda looks like a dog's attempt at a ransom letter. At the very least I wrote some basic assumptive tests to validate the morse code timings; there's also a verbose debug mode that prints to the serial monitor what's happening and when to help debugging anything that might be squirrely.
+So while the circuit is as basic as you can get the code is a little more involved. I'm not super familiar with C++ and as such my code kinda looks like a dog's attempt at a ransom letter. At the very least I wrote some basic assumptive tests to validate the morse code timings; there's also a verbose debug mode that prints to the serial monitor what's happening and when to help debugging anything that might be squirrely.
 
 ## Schematic
 
@@ -16,9 +16,9 @@ So while the circuit is as basic as you cna get the code is a little more involv
 
 ## Setup
 
-Grab the code, throw it into whatever you use and upload it to your board. If you look throught he code you'll see that there are soem defaults like seeting you LED pin to 10 and the serial baud to 115200. Feel free to change those if they don't fit with your preferred defaults.
+Grab the code, throw it into whatever you use and upload it to your board. If you look through the code you'll see that there are some defaults like setting you LED pin to 10 and the serial baud to 115200. Feel free to change those if they don't fit with your preferred defaults.
 
-Once things are uploaded and you're monitoring the appropriate port and at the set baud rate you should see a prompt asking you what you're looking to turn into morse code. Just type a thing into the serial input and send it. You should see your LED hapiply blinking away.
+Once things are uploaded and you're monitoring the appropriate port and at the set baud rate you should see a prompt asking you what you're looking to turn into morse code. Just type a thing into the serial input and send it. You should see your LED happily blinking away.
 
 If you want to see how everything's being translated set `debugMode` to `true`, re-upload, and you'll have the read out of all the dits and dahs and spacing printed out in the serial monitor.
 
@@ -42,7 +42,7 @@ I know I'm an asshole programmer spoiled by web development's boundless system r
 
 If anyone's willing to make some comments or PRs on how to improve this lacklustre code, please do. I mean, lets be civil and nice about the whole ordeal, but I'm definitely open to improving this pile of monkeyed code.
 
-## I wanna make some chages, cool with that?
+## I wanna make some changes, cool with that?
 
 Yeah, go for it. Play around and do what you want.
 
